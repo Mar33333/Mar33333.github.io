@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Yeonuwu (CV ARG)</title>
+    <link rel=”icon” type=”image/x-icon” href="/Curso-Front-end-ARG-4,0-TP/Patrones/favicon.ico">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--Personal CSS-->
+    <link rel="stylesheet" type="text/css" href="/Curso-Front-end-ARG-4,0-TP/ARG4-CV-frontend.css">
+
+</head>
+
+<body class="gradiente-color">
+    <!--Menu de navegacion-->
+    <div class="container-fluid fondo-menu">
+        <header id="casita" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="#casita" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="#3f3f3f" class="bi bi-bricks"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" />
+                </svg>
+                <span class="fs-4 ms-3">Lee Yeonuwu</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#info" class="nav-link">Informacion Personal</a></li>
+                <li class="nav-item"><a href="#exp" class="nav-link">Experiencia Laboral</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <!--Foto-->
+    <div class="d-flex justify-content-center">
+        <img class="rounded-circle" src="/Curso-Front-end-ARG-4,0-TP/Fotos/Foto Perfil Yeonwoo.png"
+            alt="Imagen de portada" height="200px" width="auto">
+    </div>
+
+    <!--Informacion Personal-->
+    <main>
+        <div class="container-fluid">
+            <div class="row contenedor-main">
+                <h2 id="info" class="col-md-4 contenedor-main-titulo">Informacion Personal</h2>
+                <p class="col-md-8 my-3">
+
+                    Soy Ingeniera Civil, tengo 26 años, y nací en Argentina. Actualmente estoy viviendo en Uruguay,
+                    trabajando full-time en una empresa dedicada a la construcción.
+                    <br><br>
+                    Integrante del movimiento LGBT+ en latinoamérica y voluntaria en varias organizaciones dedicadas a
+                    la igualdad de género, protección animal y ambiental.
+                    <br><br>
+                    Soy una persona llena de hobbies. Uso mi tiempo libre para crear
+                    contenido audiovisual en redes sociales y realizar ilustraciones digitales. Además, siempre aprecio
+                    disfrutar un rato de aire libre y sacar a pasear a mis amores perrunos ♥
+
+                </p>
+            </div>
+        </div>
+
+        <!--Experiencia Laboral-->
+        <div class="container-fluid">
+            <div class="row contenedor-main">
+                <h2 id="exp" class="col-md-4 contenedor-main-titulo">Experiencia Laboral</h2>
+                <p class="col-md-8 my-3">
+                    Luego de estudiar y recibirme en la Universidad Nacional de Rosario en la carrera de Ingeniería
+                    Civil, comencé trabajando como
+                    ayudante de oficina técnica, realizando planos de detalle para la construcción de rutas y caminos
+                    rurales
+                    dentro de la provincia de Santa Fe.
+                    <br><br>
+                    Al poco tiempo, tuve la posibilidad de viajar a nuestro país vecino charrua y poder desempeñarme en
+                    una
+                    nueva empresa, en el área de proyectos estructurales.
+                    <br><br>
+                    Participé en varios proyectos dentro de Uruguay: algunos edificios residenciales, también en naves
+                    industriales, en su mayoría para depósito de productos, y otros tipos de obras de los más variado.
+                </p>
+            </div>
+
+            <!--Iconos desplegables de experiencia-->
+            <div class="container my-4">
+                <h2>Algunas obras destacables:</h2>
+            </div>
+            <div class="container">
+                <ul class="row">
+
+
+                    <li class="icono-lista col-lg-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <button id="boton-exp-1" class="rounded-circle icono-imagen ms-3 mb-3 ps-3">
+                                    <p class="texto-icono">Ruta Prov. 91</p>
+                                </button>
+                            </div>
+                        </div>
+                        <p id="texto-exp-1" class="mx-3 mt-4">Tramo 22km <br>Trayecto de
+                            unión entre las localidades de Serodino y Totoras </p>
+                    </li>
+
+                    <li class="icono-lista col-lg-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <button id="boton-exp-2" class="rounded-circle icono-imagen ms-3 mb-3 ps-3">
+                                    <p class="texto-icono">Edificio P.E.</p>
+                                </button>
+                            </div>
+                        </div>
+                        <p id="texto-exp-2" class="mx-3 mt-4">20 pisos habitables <br> 60m de
+                            altura<br> Punta del Este, Uruguay</p>
+                    </li>
+
+                    <li class="icono-lista col-lg-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <button id="boton-exp-3" class="rounded-circle icono-imagen icono-imagen-1 ms-3 mb-3 ps-3">
+                                    <p class="texto-icono">Estadio C.A.P.</p>
+                                </button>
+                            </div>
+                        </div>
+                        <p id="texto-exp-3" class="mx-3 mt-4">Club atlético Peñarol <br>
+                            Agregado Tribuna <br> Capacidad 8.000 personas <br> Montevideo, Uruguay</p>
+                    </li>
+
+
+                    <li class="icono-lista col-lg-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <button id="boton-exp-4" class="rounded-circle icono-imagen ms-3 mb-3 ps-3">
+                                    <p class="texto-icono">Nave Indust.</p>
+                                </button>
+                            </div>
+                        </div>
+                        <p id="texto-exp-4" class="mx-3 mt-4">2.400 m2 de superficie <br> Depósito de
+                            productos alimenticios <br> Salto Grande, Uruguay</p>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!--Formulario de contacto-->
+        <div class="container-fluid contenedor-contacto">
+            <h2 id="contacto">Contacto</h2>
+            <form method="post">
+                <div>
+                    <p>Si quiere contactarme, puede enviarme un mail a <a href="http://gmail.com"
+                            target="_blank">leeyeonuwu@example.com</a> o completar su consulta en
+                        el siguiente formulario</p>
+                </div>
+                <div>
+                    <div>
+                        <p class="form-texto">Nombre</p>
+                        <input class="form-contacto" type="text" name="nombre" id="nombre" placeholder="Nombre"
+                            required>
+                    </div>
+                    <div>
+                        <p class="form-texto">Apellido</p>
+                        <input class="form-contacto" type="text" name="apellido" id="apellido" placeholder="Apellido"
+                            required>
+                    </div>
+                    <div>
+                        <p class="form-texto">Empresa</p>
+                        <input class="form-contacto" type="text" name="empresa" id="empresa" placeholder="Empresa"
+                            required>
+                    </div>
+                    <div>
+                        <p class="form-texto">Direccion de email</p>
+                        <input class="form-contacto" type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <p class="form-texto">Consulta</p>
+                        <input class="form-contacto" type="text" name="texto" id="texto"
+                            placeholder="Escriba su consulta aqui" required><br>
+                    </div>
+                    <div>
+                        <input class="form-submit" type="submit" name="submit" id="submit" value="Enviar Consulta"
+                            required>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <div class="container-fluid sticky-bottom fondo-menu">
+        <footer class="d-flex flex-wrap justify-content-center py-3 my-4 border-top">
+
+            <!--Footer-nombre-->
+            <a href="#casita" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="#3f3f3f" class="bi bi-bricks"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z" />
+                </svg>
+                <span class="mb-0 ms-1">Lee Yeonuwu © 2023</span>
+            </a>
+
+            <!--Footer-redes-->
+            <ul class="nav d-flex mb-3 ms-5">
+                <li class="ms-0">
+                    <a href="https://twitter.com" class="nav-link px-1 px-md-3" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="#3f3f3f"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-0">
+                    <a href="https://ar.linkedin.com/" class="nav-link px-1 px-md-3" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="#3f3f3f"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-0">
+                    <a href="https://www.facebook.com/" class="nav-link px-1 px-md-3" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="#3f3f3f"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            </header>
+    </div>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--Personal JS-->
+    <script src="/Curso-Front-end-ARG-4,0-TP/ARG4-CV-frontend.js"></script>
+</body>
+
+</html>
